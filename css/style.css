@@ -39,7 +39,11 @@ header .nav-item .nav-link:hover {
 .header-hide {
   transform: translateY(-100%);
 }
-
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow:none !important;
+}
 /*index.html*/
 
 .hero-sec {
@@ -321,7 +325,6 @@ ul li::marker {
   color: #949494;
   opacity: 1;
 }
-
 
 /*footer*/
 
