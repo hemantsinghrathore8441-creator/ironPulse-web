@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IronPulse</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/query.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-black">
+    <header id="header">
+      <nav class="navbar navbar-expand-lg bg-black fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold text-white fs-2" href="index.html"
+            >Iron<span class="text-danger">Pulse</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-menu-button text-white"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-end bg-black"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <a class="fw-bold text-white fs-2" href="#"
+                >Iron <span class="text-danger">Pulse</span></a
+              >
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item pe-lg-2 px-2">
+                  <a
+                    class="nav-link border-bottom border-1 border-danger text-danger"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-white" href="programes.html"
+                    >Programes</a
+                  >
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-white" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-white" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item ps-lg-2 px-2 mt-lg-0 mt-4">
+                  <a href="joinNow.html">
+                    <button class="btn fw-bold px-4" type="button">
+                      Join Now
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-sec overflow-hidden mb-5">
+        <div class="container-fluid p-0 h-100">
+          <div class="container h-100">
+            <div class="d-flex align-items-center h-100">
+              <div class="col-12 p-lg-5 p-md-4 p-2 text-white">
+                <div class="hero-content">
+                  <h1 class="fw-bold mb-lg-5 mb-4">
+                    Build Your Body <br />
+                    Build Your <span class="text-danger">Confidence.</span>
+                  </h1>
+                  <p class="mb-lg-5 mb-4">
+                    Join us today to reach your fitness goals and transfoorm
+                    yourself
+                  </p>
+                  <button
+                    type="button"
+                    class="btn fw-medium px-lg-4 px-3 fs-lg-5 fs-6"
+                  >
+                    Join Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-sec mb-5 pt-md-5">
+        <div class="container">
+          <div class="row text-white justify-content-center align-items-center">
+            <div class="col-lg-3 col-md-6 col-12 mb-4 text-center">
+              <div class="trust-icon mb-2">
+                <img
+                  src="images/exp.png"
+                  class="img-fluid bg-danger rounded-circle p-3 w-25"
+                  alt="IronPulse"
+                />
+              </div>
+              <div class="trust-data fw-medium fs-5">
+                <span>10+ Years Experience</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4 text-center">
+              <div class="trust-icon mb-2">
+                <img
+                  src="images/members.png"
+                  class="img-fluid bg-danger rounded-circle p-3 w-25"
+                  alt="IronPulse"
+                />
+              </div>
+              <div class="trust-data fw-medium fs-5">
+                <span>5k+ Members</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4 text-center">
+              <div class="trust-icon mb-2">
+                <img
+                  src="images/trainer.png"
+                  class="img-fluid bg-danger rounded-circle p-3 w-25"
+                  alt="IronPulse"
+                />
+              </div>
+              <div class="trust-data fw-medium fs-5">
+                <span>20+ Trainers</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4 text-center">
+              <div class="trust-icon mb-2">
+                <img
+                  src="images/access.png"
+                  class="img-fluid bg-danger rounded-circle p-3 w-25"
+                  alt="IronPulse"
+                />
+              </div>
+              <div class="trust-data fw-medium fs-5">
+                <span>24/7 Access</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="program-sec mb-5">
+        <div class="container py-lg-4 py-2 px-lg-3 px-2 rounded-4">
+          <h2 class="text-white fw-bold fs-1 mb-4 text-center">
+            Our <span class="text-danger">Programs</span>
+          </h2>
+          <div
+            class="d-flex flex-wrap justify-content-lg-between justify-content-center"
+          >
+            <div class="col-lg-4 col-md-6 col-12 p-2">
+              <div class="text-white gradient-bg py-2 rounded-4 program-col">
+                <h3
+                  class="text-center text-danger mb-2 py-2 border-bottom border-black fw-bold"
+                >
+                  Weight Training
+                </h3>
+                <p class="text-lg-start text-center px-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-2">
+              <div class="text-white gradient-bg py-2 rounded-4 program-col">
+                <h3
+                  class="text-center text-danger mb-2 py-2 border-bottom border-black fw-bold"
+                >
+                  Cardio Training
+                </h3>
+                <p class="text-lg-start text-center px-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-2">
+              <div class="text-white gradient-bg py-2 rounded-4 program-col">
+                <h3
+                  class="text-center text-danger mb-2 py-2 border-bottom border-black fw-bold"
+                >
+                  Yoga & Flexibility
+                </h3>
+                <p class="text-lg-start text-center px-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trainer-sec mb-5">
+        <div class="container p-0">
+          <h2 class="text-white fw-bold fs-1 my-4 text-center">
+            Meet Our <span class="text-danger">Trainers</span>
+          </h2>
+          <div
+            class="d-flex flex-wrap justify-content-lg-between justify-content-center"
+          >
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="col-12 p-2">
+                    <div
+                      class="card rounded-5 w-100 overflow-hidden border-2 border-white"
+                      style="width: 22rem"
+                    >
+                      <img
+                        src="images/trainer1.jpg"
+                        class="card-img-top"
+                        alt="IronPulse"
+                      />
+                      <div
+                        class="card-body gradient-bg text-white border-0 px-4"
+                      >
+                        <h4 class="card-title">Alex Carter</h4>
+                        <span>Strength Coach</span>
+                        <div
+                          class="social-handles mt-4 bg-danger p-2 rounded-5 d-flex justify-content-evenly"
+                        >
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-facebook mx-2"></i
+                          ></a>
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-instagram mx-2"></i
+                          ></a>
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-twitter-x mx-2"></i
+                          ></a>
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-youtube mx-2"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="col-12 p-2">
+                    <div
+                      class="card rounded-5 w-100 overflow-hidden border-2 border-white"
+                      style="width: 22rem"
+                    >
+                      <img
+                        src="images/trainer2.jpg"
+                        class="card-img-top"
+                        alt="IronPulse"
+                      />
+                      <div
+                        class="card-body gradient-bg text-white border-0 px-4"
+                      >
+                        <h4 class="card-title">Mr. Robert</h4>
+                        <span>Fitness Instructor</span>
+                        <div
+                          class="social-handles mt-4 bg-danger p-2 rounded-5 d-flex justify-content-evenly"
+                        >
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-facebook mx-2"></i
+                          ></a>
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-instagram mx-2"></i
+                          ></a>
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-twitter-x mx-2"></i
+                          ></a>
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-youtube mx-2"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="col-12 p-2">
+                    <div
+                      class="card rounded-5 w-100 overflow-hidden border-2 border-white"
+                      style="width: 22rem"
+                    >
+                      <img
+                        src="images/trainer3.png"
+                        class="card-img-top"
+                        alt="IronPulse"
+                      />
+                      <div
+                        class="card-body gradient-bg text-white border-0 px-4"
+                      >
+                        <h4 class="card-title">Jack Thompson</h4>
+                        <span>Body Building Expert</span>
+                        <div
+                          class="social-handles mt-4 bg-danger p-2 rounded-5 d-flex justify-content-evenly"
+                        >
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-facebook mx-2"></i
+                          ></a>
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-instagram mx-2"></i
+                          ></a>
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-twitter-x mx-2"></i
+                          ></a>
+                          <a
+                            href="#"
+                            class="text-decoration-none text-white fs-5"
+                            ><i class="bi bi-youtube mx-2"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="get-started-sec mb-5">
+        <div class="container text-white text-center">
+          <div class="d-flex justify-content-center">
+            <div class="col-lg-8 p-lg-5 p-3">
+              <h2 class="fw-bold mb-md-4 mb-3 fs-1">
+                Join Iron<span class="text-danger">Pulse</span> Today
+              </h2>
+              <p class="fs-6 mb-md-4 mb-3">
+                Get fit, get strong, and join the crew, at our gym, we’re
+                waiting for you and Discover strength by pushing your limits!
+              </p>
+              <button class="btn fw-bold px-4" type="button">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bullet-points mb-5">
+        <div class="container">
+          <h2 class="text-white mb-5 fs-1">
+            Why Choose Iron<span class="text-danger fw-bold">Pulse </span>
+          </h2>
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                src="images/gym_interior.jpg"
+                class="img-fluid rounded-2"
+                alt="IronPulse_interior"
+              />
+            </div>
+            <div class="col-md-6 pt-md-0 pt-4 ">
+              <ul
+                class="text-white fs-3 d-flex flex-column justify-content-evenly h-100"
+              >
+                <li class="py-2">Modern equipment</li>
+                <li class="py-2">Certified trainers</li>
+                <li class="py-2">Flexible timings</li>
+                <li class="py-2">Diet guidance</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-2 footer-bg">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-lg-center py-4">
+          <div class="col-lg-4 col-md-6 col-12 text-white mb-2">
+            <ul class="ps-lg-2 ps-md-5 ps-3">
+              <span class="fs-4 fw-bold"
+                >Our <span class="text-danger">Appearence</span></span
+              >
+              <li class="list-unstyled py-2 ps-2">
+                <a href="#" class="text-decoration-none text-white">Delhi</a>
+              </li>
+              <li class="list-unstyled py-2 ps-2">
+                <a href="#" class="text-decoration-none text-white">Jaipur</a>
+              </li>
+              <li class="list-unstyled py-2 ps-2">
+                <a href="#" class="text-decoration-none text-white">Jodhpur</a>
+              </li>
+              <li class="list-unstyled py-2 ps-2">
+                <a href="#" class="text-decoration-none text-white">Jaislmer</a>
+              </li>
+              <li class="list-unstyled py-2 ps-2">
+                <a href="#" class="text-decoration-none text-white">Ajmer</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 text-white mb-2">
+            <ul class="ps-lg-2 ps-md-5 ps-3">
+              <span class="fs-4 fw-bold"
+                >Other <span class="text-danger">Links</span></span
+              >
+              <li class="list-unstyled py-2 ps-2">
+                <a href="index.html" class="text-decoration-none text-white"
+                  >Home</a
+                >
+              </li>
+              <li class="list-unstyled py-2 ps-2">
+                <a href="programes.html" class="text-decoration-none text-white"
+                  >Programes</a
+                >
+              </li>
+              <li class="list-unstyled py-2 ps-2">
+                <a href="pricing.html" class="text-decoration-none text-white">Pricing</a>
+              </li>
+              <li class="list-unstyled py-2 ps-2">
+                <a href="contact.html" class="text-decoration-none text-white">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-8 col-12 text-white fw-bold ps-3">
+            <h3 class="mb-4 fw-bold text-lg-center">
+              Good <span class="text-danger">email.</span>
+            </h3>
+            <p class="mb-4 text-lg-center">
+              Enter your email below to be the first to know about new
+              collections and product launches.
+            </p>
+            <form>
+              <div class="input-group justify-content-lg-center">
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  class="rounded-start-2 p-2 border-0"
+                />
+                <button class="btn z-0" type="button">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-12 border-bottom border-danger border-1 ps-3 pb-4">
+          <a class="navbar-brand fw-bold text-white fs-2" href="#"
+            >Iron<span class="text-danger">Pulse</span></a
+          >
+        </div>
+        <div class="row text-white text-center py-4 align-items-center">
+          <div class="col-6 py-md-2 p-0">
+            <span> © IronPulse 2026 </span>
+          </div>
+          <div class="col-6 py-md-2 p-0">
+            <div class="ironPulse-social">
+              <a href="#" class="text-decoration-none text-white fs-5"
+                ><i class="bi bi-facebook mx-2"></i
+              ></a>
+              <a href="#" class="text-decoration-none text-white fs-5"
+                ><i class="bi bi-instagram mx-2"></i
+              ></a>
+              <a href="#" class="text-decoration-none text-white fs-5"
+                ><i class="bi bi-twitter-x mx-2"></i
+              ></a>
+              <a href="#" class="text-decoration-none text-white fs-5"
+                ><i class="bi bi-youtube mx-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">↑</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

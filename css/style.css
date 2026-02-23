@@ -1,0 +1,368 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  transition: all 0.3s ease-in-out !important;
+  background-color: #dc3545 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+button:hover {
+  background-color: #ffffff !important;
+  color: black !important;
+}
+
+/*Header*/
+
+header .nav-item .nav-link {
+  transition: all ease-in-out 0.2s;
+}
+
+header .nav-item .nav-link:hover {
+  border-bottom: #dc3545 1px solid;
+  color: #dc3545 !important;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  height: 68px;
+  top: 0;
+  left: 0;
+  color: white;
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+.header-hide {
+  transform: translateY(-100%);
+}
+
+/*index.html*/
+
+.hero-sec {
+  padding-top: 74px;
+  width: 100%;
+  height: 100vh;
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.8) 20%, rgba(255, 255, 255, 0) 100%),
+    url("../images/programe_hero_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+}
+
+.hero-content p {
+  font-size: 16px;
+}
+
+.hero-img {
+  position: relative;
+  width: 100%;
+}
+
+.hero-img img {
+  position: absolute;
+  right: 0;
+  top: -250px;
+  width: 360px;
+}
+
+.program-col {
+  box-shadow: 0px 4px 10px 0px #7c7c7c7e;
+  transition: all ease-in-out 0.3s;
+}
+
+.program-col:hover {
+  transform: translateY(-14px);
+  box-shadow: 0px 18px 20px 0px #7c7c7c7e;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 24%,
+    rgba(71, 71, 71, 1) 75%,
+    rgba(107, 107, 107, 1) 100%
+  );
+}
+
+.trainer-sec {
+  z-index: 0;
+  position: relative;
+}
+
+.social-handles {
+  transition: all ease-in-out 0.3s;
+}
+
+.social-handles a {
+  transition: all ease-in-out 0.3s;
+}
+
+.social-handles:hover {
+  background-color: black !important;
+}
+
+.social-handles a:hover {
+  color: #dc3545 !important;
+}
+
+.get-started-sec {
+  background-image:
+    linear-gradient(91deg, rgba(0, 0, 0, 0.7) 0%, rgba(224, 0, 0, 0.32) 60%),
+    url(https://images.pexels.com/photos/8337527/pexels-photo-8337527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn-close {
+  --bs-btn-close-bg: url(../images/close.png);
+}
+
+.bullet-points ul {
+  padding-left: 120px;
+}
+
+ul li::marker {
+  color: #dc3545;
+}
+
+.ironPulse-social a {
+  transition: all ease-in-out 0.3s;
+}
+
+.ironPulse-social a:hover {
+  color: #dc3545 !important;
+}
+
+/*programes.html*/
+
+.program-hero-sec {
+  padding-top: 74px;
+  width: 100%;
+  height: 100vh;
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.8) 20%, rgba(255, 255, 255, 0) 100%),
+    url("../images/programe_hero_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.program-benifit {
+  background: #dc3545;
+  width: 40%;
+  padding: 8px 0px;
+  text-align: center;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.table {
+  --bs-table-bg: rgba(255, 255, 255, 0);
+  --bs-table-color: white;
+  --bs-table-hover-color: #dc3545;
+}
+
+.weight-program {
+  width: 100%;
+  height: 560px;
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.8) 20%, rgba(255, 255, 255, 0) 100%),
+    url("../images/programe_weight_img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cardio-program {
+  width: 100%;
+  height: 560px;
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.8) 20%, rgba(255, 255, 255, 0) 100%),
+    url("../images/programe_cardio_img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.yoga-program {
+  width: 100%;
+  height: 560px;
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.8) 20%, rgba(255, 255, 255, 0) 100%),
+    url("../images/programe_yoga_img.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+/*pricing.html*/
+
+.pricing-hero-sec {
+  padding-top: 74px;
+  width: 100%;
+  height: 100vh;
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.8) 20%, rgba(255, 255, 255, 0) 100%),
+    url("../images/pricing_hero_bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.plan-bg-blue {
+  background-image: url(../images/plan_bg_blue.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.plan-bg-red {
+  background-image: url(../images/plan_bg_red.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bmi-section {
+  background-image: url(../images/plan_bg_red.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bmi-calculator {
+  background-image: url(../images/plan_bg_blue.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 550px;
+  box-shadow: 4px 4px 16px #111;
+}
+
+.bmi-box input {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+}
+
+.bmi-box button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+  font-size: 1rem;
+  color: black !important;
+  text-align: left;
+  background-color: #d0d0d0aa !important;
+  border: 0;
+  overflow-anchor: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+/*contact.html*/
+
+.contact-hero-sec {
+  padding-top: 74px;
+}
+
+.about-textarea {
+  height: 150px;
+}
+
+/* joinNow.html */
+
+.join-section {
+  background: #0b0f19;
+  margin-top: 60px !important;
+}
+
+.join-card {
+  background: linear-gradient(145deg, #142853, #162544);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.gym-input {
+  background: #2f3a54;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.gym-input:focus {
+  background: #222b40;
+  box-shadow: 0 0 0 2px #e63946;
+  color: white;
+}
+
+.gym-input::placeholder {
+  color: #949494;
+  opacity: 1;
+}
+
+
+/*footer*/
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s ease !important;
+  width: 45px;
+  height: 45px;
+  background-color: #dc35467a !important;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.back-to-top:hover {
+  background-color: transparent !important;
+  color: #dc3545 !important;
+  border: 2px solid #dc3545 !important;
+}
+
+.footer-bg {
+  background-color: #2a0709;
+}
+
+footer ul li a {
+  transition: all ease-in-out 0.2s;
+}
+
+footer ul li a:hover {
+  border-bottom: #ffffff 1px solid;
+}
